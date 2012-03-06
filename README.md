@@ -6,6 +6,9 @@
 * 正常情况下RAF的最短执行周期与浏览器重绘周期一致，约为16ms。
 * 很多使用timer的操作并不需要这么高的执行频率，例如倒计时，因此需要timer本身的特性。
 
+###Demo
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/millerchen/CngGh/5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 ###参考
 * [Animating with javascript: from setInterval to requestAnimationFrame](http://hacks.mozilla.org/2011/08/animating-with-javascript-from-setinterval-to-requestanimationframe/)
 * [性能](http://msdn.microsoft.com/library/hh673556.aspx)
